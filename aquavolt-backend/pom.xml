@@ -11,8 +11,8 @@
 	<groupId>com.aquavolt</groupId>
 	<artifactId>aquavolt-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name/>
-	<description/>
+	<name>aquavolt-backend</name>
+	<description>API REST do painel AquaVolt</description>
 	<url/>
 	<licenses>
 		<license/>
