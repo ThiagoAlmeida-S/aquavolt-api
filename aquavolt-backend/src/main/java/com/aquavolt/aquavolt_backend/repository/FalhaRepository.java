@@ -12,4 +12,7 @@ public interface FalhaRepository extends JpaRepository<Falha, Long> {
 
     // Só as falhas que ainda não foram resolvidas (alertas ativos)
     List<Falha> findByResolvidaFalseOrderByDataHoraDesc();
+
+    // Falhas ainda abertas de uma origem específica (evita alerta duplicado)
+    List<Falha> findByOrigemAndResolvidaFalse(String origem);
 }
